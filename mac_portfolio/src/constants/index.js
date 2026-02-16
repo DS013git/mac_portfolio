@@ -11,8 +11,8 @@ const navLinks = [
   },
   {
     id: 4,
-    name: "Resume",
-    type: "resume",
+    name: "About me",
+    type: "about me",
   },
 ];
 
