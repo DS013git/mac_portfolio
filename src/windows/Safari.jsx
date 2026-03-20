@@ -2,7 +2,7 @@ import React from 'react'
 import { ChevronLeft, ChevronRight, PanelLeft, ShieldHalf, Search, Share, Plus, Copy } from "lucide-react";
 import WindowControls from '../components/WindowControls';
 import WindowWrapper from '#hoc/WindowWrapper.jsx';
-import { blogPosts } from '#constants/index.js';
+// import { blogPosts } from '#constants/index.js';
 
 
 const Safari = () => {
@@ -32,7 +32,7 @@ const Safari = () => {
           <Copy className="icon"/>
         </div>
       </div>
-      <div className='blog'>
+      {/* <div className='blog'>
         <h2> My Developer Blog</h2>
       <div className='space-y-8'>
         {blogPosts.map(({  id, image, title, date, link }) => (
@@ -48,7 +48,7 @@ const Safari = () => {
             </div>
         ))}
       </div>
-      </div>
+      </div> */}
     </>
   )
 };
