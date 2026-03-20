@@ -225,26 +225,26 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike pictures",
+      name: "Building",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
       children: [
-        {
-          id: 1,
-          name: "Nike Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          ],
-        },
+        // {
+        //   id: 1,
+        //   name: "Nike Project.txt",
+        //   icon: "/images/txt.png",
+        //   kind: "file",
+        //   fileType: "txt",
+        //   position: "top-5 left-10",
+        //   description: [
+        //     "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
+        //     "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
+        //     "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
+        //     "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+        //   ],
+        // },
         // {
         //   id: 2,
         //   name: "nike.com",
@@ -254,15 +254,15 @@ const WORK_LOCATION = {
         //   href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
         //   position: "top-10 right-20",
         // },
-        {
-          id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
+        // {
+        //   id: 4,
+        //   name: "nike.png",
+        //   icon: "/images/image.png",
+        //   kind: "file",
+        //   fileType: "img",
+        //   position: "top-52 right-80",
+        //   imageUrl: "/images/project-1.png",
+        // },
         {
           id: 5,
           name: "Design.fig",
@@ -462,15 +462,15 @@ const TRASH_LOCATION = {
   icon: "/icons/trash.svg",
   kind: "folder",
   children: [
-    {
-      id: 1,
-      name: "trash1.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
-    },
+    // {
+    //   id: 1,
+    //   name: "trash1.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-10 left-10",
+    //   imageUrl: "/images/bad.jpeg",
+    // },
     {
       id: 2,
       name: "trash2.png",
