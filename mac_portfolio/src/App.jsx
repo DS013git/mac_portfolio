@@ -2,15 +2,33 @@ import React from 'react'
 import Navbar from '#components/Navbar'
 import Dock from '#components/Dock'
 // import Welcome from './components/Welcome'
+import { Draggable } from 'gsap/Draggable';
+import gsap from 'gsap';
+import Terminal from '#windows/Terminal.jsx';
+import Safari from "#windows/Safari.jsx";
+import Resume from "#windows/Resume.jsx";
+import Finder from "#windows/Finder.jsx";
+import Text from "#windows/Text.jsx"; 
+import Image from '#windows/Image.jsx';
+import Contact from "#windows/Contact.jsx";
+
+gsap.registerPlugin(Draggable);
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Navbar />
       {/* <Welcome /> */}
       <Dock/>
-    </div>
-  )
-}
+      <Terminal/>
+      <Safari/>
+      <Resume/>
+      <Finder/>
+      <Text/>
+      <Image/>
+      <Contact/>
+    </main>
+  );
+};
 
-export default App
+export default App;
