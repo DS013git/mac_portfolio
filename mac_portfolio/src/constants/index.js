@@ -225,35 +225,35 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Building",
+      name: "Chat-App",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
       children: [
-        // {
-        //   id: 1,
-        //   name: "Nike Project.txt",
-        //   icon: "/images/txt.png",
-        //   kind: "file",
-        //   fileType: "txt",
-        //   position: "top-5 left-10",
-        //   description: [
-        //     "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-        //     "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-        //     "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-        //     "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-        //   ],
-        // },
-        // {
-        //   id: 2,
-        //   name: "nike.com",
-        //   icon: "/images/safari.png",
-        //   kind: "file",
-        //   fileType: "url",
-        //   href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-        //   position: "top-10 right-20",
-        // },
+        {
+          // id: 1,
+        name: "Chat App.txt",
+        icon: "/images/txt.png",
+        kind: "file",
+        fileType: "txt",
+        position: "top-5 left-10",
+        description: [
+          "The Chat App is a real-time messaging platform built to provide seamless communication between users.",
+          "Instead of basic text messaging, it offers an engaging chat experience with instant message delivery, typing indicators, online status tracking, and media sharing.",
+          "Think of it as a modern social messaging application where users can connect, interact, and stay updated in real time.",
+          "It's powered by Stream Chat API for scalable real-time communication and built using the MERN stack, ensuring high performance, secure authentication, and a smooth user experience across devices.",
+        ],
+        },
+        {
+          id: 2,
+          name: "chat-App.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/DS013git/chat-app",
+          position: "top-10 right-20",
+        },
         // {
         //   id: 4,
         //   name: "nike.png",
